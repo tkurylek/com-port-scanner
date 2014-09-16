@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    def jsscVersion = '2.8.0'
+
+    compile group: 'org.scream3r', name: 'jssc', version: jsscVersion
+}
