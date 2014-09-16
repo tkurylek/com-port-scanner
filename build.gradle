@@ -1,5 +1,7 @@
 apply plugin: 'java'
+apply plugin:'application'
 
+mainClassName = 'pl.kurylek.portscanner.Application'
 sourceCompatibility = 1.8
 version = '1.0'
 
