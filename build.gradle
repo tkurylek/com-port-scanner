@@ -11,6 +11,11 @@ repositories {
 
 dependencies {
     def jsscVersion = '2.8.0'
+    def slf4jLog4jVersion = '1.0.1'
+    def slf4jApiVersion = '1.7.7'
 
     compile group: 'org.scream3r', name: 'jssc', version: jsscVersion
+    compile group: 'org.slf4j', name: 'slf4j-api', version: slf4jApiVersion
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: slf4jApiVersion
+    compile group: 'org.slf4j', name: 'slf4j-log4j13', version: slf4jLog4jVersion
 }
